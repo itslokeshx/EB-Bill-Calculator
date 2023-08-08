@@ -6,23 +6,21 @@ document.querySelector(".final").style.display="none";
 
     var c =  document.querySelector("#place").value;
     var b =  document.querySelector("#no").value;
- var a =  document.querySelector("#bro").value;
-   
- document.querySelector("#kohli").textContent="Your revenue district";
- document.querySelector("#dhoni").textContent="Your consumer number";
-document.querySelector("#raina").textContent="Your total consumption";
-
+    var a =  document.querySelector("#bro").value;
+ document.querySelectorAll(".john")[0].style.padding ="1px"
+ document.querySelector("#kohli").textContent="Your total consumption:";
+ document.querySelector("#dhoni").textContent=a+" kWh";
+document.querySelector("#raina").style.display="none";
+document.querySelector("#place").style.display="none";
+document.querySelector("#bro").style.display="none";
+document.querySelector("#no").style.display="none";
 document.querySelector("#button").style.display="none";
-
+document.querySelectorAll(".john")[1].style.padding ="1px"
+document.querySelector(".john1").style.padding="1px";
  document.querySelector(".final").style.display="flex";
- 
 
+ document.querySelector(".body").style.height="300px"
 
-
-
-
-
- 
         if(a<=100){
         document.getElementById("hope").innerHTML=" ₹0.00"}
 
@@ -74,5 +72,6 @@ document.querySelector("#button").style.display="none";
             
                 
 }
+
 
 
