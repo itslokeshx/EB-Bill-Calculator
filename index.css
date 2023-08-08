@@ -12,7 +12,7 @@
     justify-content: space-around;
     width:100vw;
     height:100vh;
-    background: linear-gradient(55deg, #a683e3 50%, #e4e9fd 50%);
+  background: url("phone.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -27,21 +27,23 @@
     font-weight: 300;
     text-align:center;
     background:#e4e7f3;
-    padding:8px;
+    padding:10px;
     border:black solid 1px;
     border-radius:15px;
     color:black;
    filter:drop-shadow(3px 3px 7px #666);
+  
    
 }
 .body{
     width:630px;
-    height:500px;
+    height:520px;
    border:black solid 2px;
-   border-radius: 40px;
+  
    padding-right:40px;
    padding-left:40px;
-   background: white;
+   background: rgb(230, 230, 230); 
+
   
 
 }
@@ -52,6 +54,7 @@
   align-items:center;
   justify-content:space-between;
   width:100%;
+  flex-direction: column;
 
  }
 .form{
@@ -70,6 +73,8 @@
     justify-content:space-between;
     width:100%;
     padding-bottom:40px;
+   
+    flex-direction: column;
    
 
 }
@@ -120,7 +125,11 @@ button:hover{
 }
 .final{
     font-size:35px;
-    padding-bottom:28px;
+    padding:8px;
+    border:black solid 2px;
+    margin-top:30px;
+    border-radius: 15px;
+    background:rgb(236, 235, 235);
 }
 span{
     font-family: arial,sans-serif;
@@ -147,7 +156,7 @@ span{
         justify-content: space-around;
         width:100vw;
         height:100vh;
-        background: linear-gradient(55deg, #a683e3 50%, #e4e9fd 50%);
+        background: url("phone.jpg");
         background-repeat:no-repeat;
         background-attachment: fixed;
         background-position: center; 
@@ -156,11 +165,14 @@ span{
     }
       
     .title{
-        font-size:20px;
+        font-size:19px;
         font-weight: 300;
         text-align:center;
         background:#e4e7f3;
-        padding:8px;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:5px;
+        padding-bottom:5px;
         border:black solid 1px;
         border-radius:15px;
         color:black;
@@ -172,10 +184,10 @@ span{
         width:320px;
         height:430px;
        border:black solid 2px;
-       border-radius: 40px;
+       
        padding-right:10px;
        padding-left:10px;
-       background: white;
+       background: #e4e7f3; 
       
     
     }
@@ -231,7 +243,7 @@ span{
     }
     .final{
         font-size:22px;
-        padding-bottom:28px;
+       
     }
     span{
         font-family: arial,sans-serif;
