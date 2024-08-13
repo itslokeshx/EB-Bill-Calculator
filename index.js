@@ -1,9 +1,9 @@
  
 document.querySelector(".final").style.display="none";
-alert("(Revised on July 01, 2024)");
+
 
  function display(){
-    
+    alert("Revised on July 01, 2024!");
     var c =  document.querySelector("#place").value;
     var b =  document.querySelector("#no").value;
     var a =  document.querySelector("#bro").value;
