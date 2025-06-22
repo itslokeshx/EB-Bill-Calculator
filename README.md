@@ -1,4 +1,4 @@
 
 # CURRENT BILL CALCULATOR
 
-SiteLink: https://thelokesha.github.io/EB-calce/
+SiteLink: https://itslokeshx.github.io/EB-calce/
